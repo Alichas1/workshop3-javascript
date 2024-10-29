@@ -189,6 +189,8 @@ function testScope() {
   console.log(globalVar, localVar);
 }
 
+testScope();
+
 //task.4
 //det funkar inte att printa ut det utanför functionen
 console.log(localVar);
