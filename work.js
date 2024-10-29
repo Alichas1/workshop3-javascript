@@ -170,9 +170,10 @@ for (let i = 0; i < values.length; i++) {
 }
 
 //task.5
-while (i < values.length) {
-  chekTruthiness(values[i]);
-  i++;
+let j = 0;
+while (j < values.length) {
+  chekTruthiness(values[j]);
+  j++;
 }
 
 //6. scope
